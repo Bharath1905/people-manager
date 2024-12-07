@@ -64,8 +64,11 @@ src/
 - **TypeScript**: Primary language for Angular development.
 - **CSS**: Styling.
 
-## Repository Name
-**people-manager**
+---
 
-## Repository Description
-> An Angular 7/8 Single Page Application for managing a list of people with features to list, edit, and delete individuals.
+## Webpages
+<img width="1191" alt="image" src="https://github.com/user-attachments/assets/934c419f-4455-4b1d-a1ef-9f9428fb7fb3">
+<img width="1191" alt="image" src="https://github.com/user-attachments/assets/e33bf67f-d3e2-47f7-bab5-225ec8e66f59">
+<img width="1191" alt="image" src="https://github.com/user-attachments/assets/0f87859d-e177-40bc-bf09-53324a480941">
+
+
