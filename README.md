@@ -1,27 +1,71 @@
-# Baru
+# People Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+## Overview
+The **People Manager** is a Single Page Application (SPA) built with Angular 7/8. It allows users to manage a list of people through a simple and intuitive interface. The app provides functionality to:
 
-## Development server
+- List all people
+- Edit details of a person
+- Delete a person
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project demonstrates Angular concepts like routing, component interaction, and service-based architecture.
 
-## Code scaffolding
+## Features
+- **People List View**: Displays a list of people with options to edit or delete each entry.
+- **Edit Person View**: Enables editing of the details of a selected person.
+- **Delete Person Functionality**: Removes a person from the list.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Structure
+```
+src/
+├── app/
+│   ├── app.component.*      # Root component files
+│   ├── app.module.ts        # Main Angular module
+│   ├── app.config.ts        # Application configuration
+│   ├── app.routes.ts        # Route definitions
+│   ├── components/          # Feature-specific components
+│   │   ├── edit/            # Edit person component
+│   │   └── list/            # List people component
+│   ├── models/              # Data models
+│   │   └── person.model.ts  # Person data structure
+│   └── services/            # Service classes
+│       └── person.service.ts # Logic to manage people
+```
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/people-manager.git
+   cd people-manager
+   ```
 
-## Running unit tests
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Run the development server:
+   ```bash
+   ng serve
+   ```
 
-## Running end-to-end tests
+4. Open the application in your browser at:
+   ```
+   http://localhost:4200
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Usage
+1. Navigate to the **People List** view to see all people.
+2. Click **Edit** to update a person's details.
+3. Click **Delete** to remove a person from the list.
 
-## Further help
+## Technologies Used
+- **Angular 7/8**: Framework for building SPAs.
+- **TypeScript**: Primary language for Angular development.
+- **CSS**: Styling.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Repository Name
+**people-manager**
+
+## Repository Description
+> An Angular 7/8 Single Page Application for managing a list of people with features to list, edit, and delete individuals.
